@@ -1261,7 +1261,7 @@ propertynotify(XEvent *e)
 void
 quit(const Arg *arg)
 {
-  if ( arg->i) {
+  if (arg->i) {
     restart = 1;
   }
 	running = 0;
